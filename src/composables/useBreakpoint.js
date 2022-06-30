@@ -1,4 +1,4 @@
-import { computed, onMounted, onUnmounted, ref } from "vue";
+import { computed, onMounted, onUnmounted, ref, shallowRef } from "vue"; // eslint-disable-line
 
 export default function useBreakpoint() {
   let windowWidth = ref(window.innerWidth);
